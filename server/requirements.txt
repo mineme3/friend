@@ -1,0 +1,15 @@
+fastapi
+uvicorn[standard]
+python-dotenv
+sqlalchemy
+databases[postgresql]      # async database support with PostgreSQL
+httpx                      # async HTTP client
+jinja2                     # templating (if needed)
+alembic                    # database migrations
+psycopg2-binary            # sync PostgreSQL driver (optional, if using sync SQLAlchemy)
+pydantic[email]            # email validation
+python-multipart           # form data support
+aiofiles                   # async file operations
+passlib[bcrypt]            # password hashing
+python-jose[cryptography]  # JWT token handling
+redis                      # Redis client (if using Redis)
